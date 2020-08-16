@@ -12,28 +12,6 @@
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>OrgClassification</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>OrgClassification</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>OrgUnit</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>OrgUnit</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
             <sch:name>OrgClient</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
@@ -166,17 +144,6 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>UserOrgAssignment</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>UserOrgAssignment</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
             <sch:name>PurchaseAdminActivity</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
@@ -273,4 +240,5 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
+    <sch:bmfRules/>
 </sch:ObjectType>

@@ -326,28 +326,6 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>UserOrgAssignment</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>20000</sch:seqIndex>
-            <sch:format>UserOrgAssignment(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>UserOrgAssignment</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>20000</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>DocNum</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
             <sch:tableName>Currency</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>30000</sch:seqIndex>
@@ -364,72 +342,6 @@
             <sch:seqIndex>30000</sch:seqIndex>
             <sch:format>%s %s</sch:format>
             <sch:columns>Code,Name</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>OrgUnit</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>OrgUnit(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>OrgUnit</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>Code,Name</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>OrgClassification</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>OrgClassification(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>OrgClassification</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>Code,Name</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>OrgUnitClassification</sch:tableName>
-            <sch:type>Collection</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>OrgUnitClassification(%s)</sch:format>
-            <sch:columns>#count</sch:columns>
-            <sch:action></sch:action>
-            <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
-            <sch:description></sch:description>
-        </sch:BmfTreeNode>
-        <sch:BmfTreeNode>
-            <sch:tableName>OrgUnitClassification</sch:tableName>
-            <sch:type>Item</sch:type>
-            <sch:seqIndex>30000</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>ClassificationId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>

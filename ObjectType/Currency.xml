@@ -136,4 +136,5 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
+    <sch:bmfRules/>
 </sch:ObjectType>
